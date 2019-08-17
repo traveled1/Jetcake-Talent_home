@@ -238,6 +238,11 @@ header {
   text-align: center;
   color: white;
 }
+
+header#header-talent {
+  background-image: url('../img/sf3.jpg') !important;
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -753,3 +758,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+
+
+
+/*!
+  Custom CSS 2019 and later  
+*/
