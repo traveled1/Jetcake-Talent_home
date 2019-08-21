@@ -243,10 +243,10 @@ header#header-talent {
   background-image: url('../img/sf3.jpg') !important;
 }
 
-header#about-us {
-  background-image: url('../img/gg-bridge-full.jpeg') !important;
-}
 header#contact-us {
+  background-image: url('../img/gg-bridge-flower-full.jpeg') !important;
+}
+header#about-us {
   background-image: url('../img/gg-bridge-flower-full.jpeg') !important;
 }
 
@@ -256,7 +256,7 @@ header .intro-text {
 }
 header .intro-text#about-us {
   padding-top: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 header .intro-text .intro-lead-in {
