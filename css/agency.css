@@ -246,6 +246,9 @@ header#header-talent {
 header#about-us {
   background-image: url('../img/gg-bridge-full.jpeg') !important;
 }
+header#contact-us {
+  background-image: url('../img/gg-bridge-flower-full.jpeg') !important;
+}
 
 header .intro-text {
   padding-top: 100px;
@@ -662,12 +665,20 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+
+.contact-text {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin-left: 1em;
+}
+
 ul.social-buttons {
   margin-bottom: 0;
 }
 ul.social-buttons li a {
-  display: block;
-  background-color: #222222;
+  display: inline-block;
+  background-color: #333333;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -783,3 +794,7 @@ body {
 /*!
   Custom CSS 2019 and later  
 */
+
+.list-style-none {
+  list-style-type: none;
+}
