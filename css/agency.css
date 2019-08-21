@@ -243,10 +243,19 @@ header#header-talent {
   background-image: url('../img/sf3.jpg') !important;
 }
 
+header#about-us {
+  background-image: url('../img/gg-bridge-full.jpeg') !important;
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+header .intro-text#about-us {
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -305,6 +314,15 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+section h3.section-text {
+  font-size: 20px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
