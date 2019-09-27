@@ -676,7 +676,7 @@ footer ul.quicklinks {
 ul.social-buttons {
   margin-bottom: 0;
 }
-ul.social-buttons li a {
+ul.social-buttons li a:not([href^="tel:"]) {
   display: inline-block;
   background-color: #333333;
   height: 40px;
@@ -689,6 +689,9 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+}
+ul.social-buttons li a[href^="tel:"] {
+  color: #333;
 }
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
