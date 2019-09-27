@@ -86,7 +86,7 @@ gulp.task('copy', ['bootstrap', 'jquery', 'fontawesome']);
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
-            baseDir: ''
+            baseDir: './'
         },
     })
 })
